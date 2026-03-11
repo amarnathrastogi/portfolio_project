@@ -1,0 +1,147 @@
+body {
+    background-image: url("photo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.head {
+    background-color: #FFC107;
+    color: #0A192F;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    border-radius: 10px;
+    padding-left: 1%;
+    margin-top: 2%;
+}
+
+.cont {
+    width: 95%;
+    margin: auto;
+    padding: 20px 10px;
+}
+
+.skills {
+    display: flex;
+    gap: 110px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+}
+
+.photo {
+    width: auto;
+    height: 350px;
+    margin-top: center;
+    margin-left: 25px;
+    border-radius: 10px;
+    border: yellow solid 3px;
+}
+
+.about-box {
+    background-color: #1A2639;
+    color: #E2E8F0;
+    border-left: 5px solid #FFC107;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.about-box2 {
+    width: auto;
+    overflow: hidden;
+    background-color: #1A2639;
+    color: #E2E8F0;
+    border-left: 5px solid #FFC107;
+    border-radius: 10px;
+    padding: 30px 0 30px 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    margin-top: 2%;
+}
+
+    .about-box2 h3 {
+        color: #FFC107;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .about-box2 ul {
+        list-style-type: square;
+        padding-left: 15px;
+    }
+
+    .about-box2 li {
+        margin-bottom: 8px;
+    }
+
+    .button {
+         background-color: #007bff; /* blue color */
+         color: white;
+         padding: 10px 20px;
+         border: none;
+         border-radius: 5px;
+         cursor: pointer;
+        font-size: 16px;
+    }
+
+    .button:hover {
+  background-color: #0056b3; /* dark blue on hover */
+    }
+
+    @media screen and (max-width: 992px) {
+    .container {
+        width: 95%;
+        padding: 0 15px;
+    }
+    
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .row, .flex-container, .grid-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column, .side-bar, .main-content {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .btn, button {
+        width: 100%;
+        display: block;
+    }
+}
